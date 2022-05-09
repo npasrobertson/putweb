@@ -20,7 +20,7 @@ header, section, footer, aside, nav, main, article, figure {
 /* Main Elements Styling */
 
 body {
-	background-color: #FFF6EA;
+	background-color: #ffbb00;
 	/* Remove the slash and star from either side of the code below to activate it */
 	/* background-image: url("../assets/mountains.jpg"); */
 }
@@ -69,7 +69,7 @@ p {
 /* Main Sections Styling */
 
 .navbar.is-custom {
-  background-color: #ffd4c7;
+  background-color: #ffffff;
   color: rgba(0, 0, 0, 0.7);
 }
 
