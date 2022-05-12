@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Help Section</title>
+
+<link rel="stylesheet" href="css/bulma.css">
+<link rel="stylesheet" href="css/styles.css">
+
+<script src="https://kit.fontawesome.com/21cce3fc2f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!--[if IE]>
+    <div class="warning">
+	<h1>Browser Warning</h1>
+	<p>This site does not load properly using InternetExplorer. Please change to a more up to date browser like Chrome or Firefox.</p></div>
+<![endif]-->
+
+
+<!-- Start of navbar section -->
+<nav class="navbar is-custom">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+	<img src="assets/waffle basket.fw.png" alt="Logo">
+      </a>
+      <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div id="navbarMenuHeroA" class="navbar-menu">
+      <div class="navbar-start">
+	    <a class="navbar-item" href="index.html">
+          Home
+        </a>
+        <a class="navbar-item" href="drinks-menu.html">
+          Drinks Menu
+        </a>
+		<a class="navbar-item" href="desserts-menu.html">
+         Dessert Menu
+        </a>
+        <a class="navbar-item" href="another-page.html">
+          Booking Details
+        </a>
+      </div>
+	  <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a href="help.html" class="button is-primary">
+            <strong>Help</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</nav>
+<!-- End of navbar section -->
+
+<!-- Start of hero (page header) section -->
+<section class="hero has-background is-primary is-medium">
+<img class="hero-background" src="assets/mountains.jpg" alt="mountains" />
+<div class="hero-body">
+<div class="container has-text-centered">
+  <div class="box see-through">
+  <h1 class="title is-1 has-text-black">Help Section</h1>
+  <h2 class="subtitle has-text-black">Information to help you edit the website</h2>
+  </div>
+</div>
+</div>
+</section>
+<!-- End of hero (page header) section -->
+
+
+<!-- Start of main page content section -->
+<section class="section">
+<div class="container">
+<div class="columns is-centered">
+  <div class="column main-content">
+  <div class="has-background-grey-lighter p-5">
+  <div class="content">
+	<h2 class="title is-2">Help!</h2>
+	<p>The aim of this section is to give you information about common problems and how to get started with the basics. It is not all the answers - there are a lot of other resources on the Internet you can use to help you with HTML and CSS.</p>
+	
+    <h3 class="title is-3">Have you unzipped?</h3>
+	<p>When you first download this template it will be compressed in a zip file. Although you can open some pages the website will not work properly. Make sure you have right clicked on the zipped file (it has a zip on the icon) and selected <em>Extract all</em>. Once you have done that, move the unzipped folder out of your downloads folder to avoid confusion then open this page and read the instructions below to help you get started.</p>
+	
+    <h3 class="title is-3">How do I change the website?</h3>
+	<p>Web pages can be opened in two ways - viewing or editing. To <em>view</em> the web page you open it in a browser such as Chrome or Edge. This is usually the default way of opening a web page. To <em>edit</em> it you need to right click on the file and 'Edit with Notepad++'. Other editors are available but if you are in school and unsure, this would be a good way of getting started.</p>
+	<p>A lot of the code/markup can be ignored. You need to scan down until you see a familiar part. A good start is in the hero section where it says <strong>Large Hero Title</strong> in font coloured black. Edit this title then <em>save</em> the page, go back to the browser and <em>refresh</em> the page to see your change.</p>
+	
+    <p>A lot of the text on this website is lorem ipsum - it's text that designers use to look like words and show what it would look like with actual content. It is not an actual language and you can easily replace it with your own content. The main content of the website is written inside paragraph tags (&lt;p&gt;). You can highlight the words inside the tags but keep the &lt;p&gt;<em>opening and closing paragraph tags</em>&lt;/p&gt; either side.</p>
+	<p>If you are deleting sections or content, <strong>remember</strong> to delete 'tag to tag'. For example if you are removing a paragraph instead of editing it, delete the opening (&lt;p&gt;) and closing (&lt;/p&gt;) tag as well. If you are deleting a section, delete the opening (&lt;section&gt;) and closing (&lt;/section&gt;) tag as well.<p>
+	
+	<h3 class="title is-3">How do I change the hero (header/banner) picture?</h3>
+	<p>The file path for the hero picture is in the <em>css/styles.css</em>, not the HTML document, but needs opening in <em>Notepad++</em> as well. Scroll through and look for <em>mountains.jpg</em> which is the file name you change in exactly the same way as for the image. NOTE: you need the '../assets/' in front of the filename as well as the apostrophes so do not delete them.</p>
+	
+    <h3 class="title is-3">How do I change the other pictures?</h3>
+	<p>The website is set up to make it easy for you to substitute your own content. There is an <em>assets</em> folder that you need to save any pictures in that you want to use. When you save them do the following:</p>
+	<ul>
+	  <li>Save in the assets folder</li>
+	  <li>Use a short name</li>
+	  <li>Make the name lowercase with no spaces</li>
+	  <li>Check it is JPG or PNG</li>
+	</ul>
+	<p>Once that is done you can adjust the file name in the template to match your downloaded picture. For example, <em>&lt;img class="is-rounded" src="assets/cheesy-bake.jpg" alt="Cheesy Bake"&gt;</em> becomes <em>&lt;img class="is-rounded" src="assets/your-picture.jpg" alt="Your picture description"&gt;</em>. If it does not work, it is usually because the filenames do not match, the file extension is wrong or you have not saved it in the correct place.</p>
+	
+	<h3 class="title is-3">How do I change colours?</h3>
+	<p>While you are in the <em>styles.css</em> file, you might want to change some of the colours. The easiest way to start is by finding a <a href="https://www.google.com/search?q=html+colour+picker&oq=html&aqs=edge.1.69i57j69i59j0i433l2j69i60l3.2875j0j1&sourceid=chrome&ie=UTF-8" target="_blank">HTML colour picker website</a> that lets you choose a colour and get the hashtag colour code. You then change the colour code in the CSS document.</p>
+	<p>It is also important to remember the process of 'edit --> save --> refresh' regularly so you can identify errors as you go along.</p>
+	<h3 class="title is-3">Adding more pictures to the gallery</h3>
+	<p>On the gallery page you can add more pictures. When you look at the code there is a 'start' and 'end' comment for each picture. Copy and paste comment to comment. If you want a whole row, copy/paste four of them.</p>
+  </div>
+  </div>
+  </div>
+</div><!-- End of columns -->
+</div><!-- End of container -->
+</section>
+<!-- End of main page content section -->
+
+
+<!-- Start of footer section -->
+<footer class="footer">
+<div class="content has-text-centered">
+  <p>©Copyright 2050 by nobody. All rights reserved.</p>
+</div>
+</footer>
+<!-- End of footer section -->
+
+
+<!-- Start of scripts code or links -->
+<script src="js/base.js"></script>
+<script type='text/javascript'>
+/* Sample function that returns boolean in case the browser is Internet Explorer*/
+function isIE() {
+  ua = navigator.userAgent;
+  /* MSIE used to detect old browsers and Trident used to newer ones*/
+  var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+  
+  return is_ie; 
+}
+/* Create an alert to show if the browser is IE or not */
+if (isIE()){
+    alert('This site does not load properly using InternetExplorer. Please change to a more upto date browser like Chrome or Firefox.');
+}
+</script>
+<!-- End of scripts code or links -->
+</body>
+</html>
