@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Design-Solutions</title> <!--Maciek's page-->
+<link rel="stylesheet" href="css/bulma.css">
+<link rel="stylesheet" href="css/styles.css">
+
+<script src="https://kit.fontawesome.com/21cce3fc2f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!--[if IE]>
+    <div class="warning">
+	<h1>Browser Warning</h1>
+	<p>This site does not load properly using InternetExplorer. Please change to a more up to date browser like Chrome or Firefox.</p></div>
+<![endif]-->
+
+
+<!-- Start of navbar section -->
+<nav class="navbar is-custom">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+	<img src="assets/main-menu-logo.png" alt="Logo">
+      </a>
+      <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div id="navbarMenuHeroA" class="navbar-menu">
+      <div class="navbar-start">
+	      <a class="navbar-item" href="index.html">
+          Home
+        </a>
+        <a class="navbar-item" href="gallery.html">
+          Gallery
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- End of navbar section -->
+
+
+<!-- Start of hero (page header) section -->
+<section class="hero has-background is-primary is-small">
+<img class="hero-background" src="assets/mountains.jpg" alt="mountains" />
+<div class="hero-body">
+<div class="container has-text-centered">
+  <div class="box see-through">
+  <h1 class="title is-1 has-text-black">Hero Title</h1>
+  </div>
+</div>
+</div>
+</section>
+<!-- End of hero (page header) section -->
+
+
+<!-- Start of main page content section -->
+<section class="section">
+<div class="container">
+<div class="columns is-centered">
+  <div class="column main-content">
+  <div class="has-background-grey-lighter p-5">
+  <div class="content">
+    <h2 class="title is-2">Medium Width</h2>
+    <p>Content of the document is written inside paragraph tags (&lt;p&gt;). The text below is lorem ipsum - it's text that designers use to look like words and show what it would look like with actual content.</p>
+    <p>Vivamus finibus purus vitae ipsum convallis vestibulum. Mauris dui eros, feugiat quis orci ac, aliquam aliquet orci. Pellentesque tempor eget turpis sit amet dignissim. Phasellus in ligula eget est varius cursus sit amet ut metus. Sed pharetra sed massa quis ornare. Nam a odio ut nibh accumsan tempus. Donec suscipit felis in sem ultrices, nec lobortis velit viverra. Morbi mollis at quam congue molestie. Maecenas vestibulum cursus eleifend. Nullam commodo sagittis finibus. Aliquam blandit justo vitae velit consequat, quis molestie tortor tristique. Cras in lacinia augue, vitae semper urna. Phasellus finibus vestibulum accumsan. Phasellus ultricies nisi ac lacus placerat, ac venenatis eros semper. Cras vulputate pharetra imperdiet. Donec eu quam sapien.</p>
+    <p>Here is a delicious recipe for <a href="https://www.tasteofhome.com/recipes/creamy-cheese-rice/">Cheese and Rice</a></p>
+    <p><img src="assets/cheesy-bake.jpg" alt="Cheesy Bake"></p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim velit ut urna posuere, a maximus mi mattis. Aenean lacus tortor, aliquam eu felis a, maximus laoreet urna. Phasellus a libero porttitor, euismod purus et, tincidunt ligula. Integer et est in elit pellentesque sodales ac et quam. Ut laoreet a justo vel fermentum. Suspendisse magna quam, vestibulum non nisi at, varius lobortis ex. Nam venenatis dolor ac odio maximus, nec volutpat ligula pellentesque. Cras efficitur finibus congue. Pellentesque mollis tristique risus vel fermentum. Vivamus aliquam condimentum est nec aliquam. Sed consectetur ultrices pulvinar. Ut congue, felis id pellentesque placerat, elit risus vehicula massa, sed mattis sem enim id est. Quisque ornare purus ac elementum venenatis. Nunc sed sapien eu ipsum dapibus suscipit.</p>
+    <p>Pellentesque eros ipsum, aliquet ut ullamcorper eu, facilisis nec elit. Mauris arcu velit, condimentum ut sem vitae, rutrum porta magna. Cras sollicitudin vel nisl quis gravida. Donec tristique varius elementum. Fusce placerat enim erat, ut condimentum sapien auctor vel. Sed id fermentum nisl. Donec fermentum pellentesque lobortis. Aliquam nec diam nisl. Pellentesque a pulvinar enim. Curabitur vulputate sollicitudin tellus, eget sagittis leo consequat id.</p>
+    <p>Donec varius, quam ac efficitur imperdiet, eros leo vestibulum tellus, eget lobortis arcu risus ut mauris. Duis id faucibus magna. Vestibulum vehicula mattis lacus, vel euismod lectus convallis id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sed condimentum risus. Mauris sed quam varius risus tempus convallis. Sed sed est mattis, laoreet quam ac, hendrerit elit. Aenean magna est, vulputate vel augue eu, fringilla facilisis erat. Maecenas eu nulla sem. Donec eget maximus velit, ac molestie dolor. Sed auctor id mauris ac pulvinar.</p>
+  </div>
+  </div>
+  </div>
+</div><!-- End of columns -->
+</div><!-- End of container -->
+</section>
+<!-- End of main page content section -->
+
+
+<!-- Start of footer section -->
+<footer class="footer">
+<div class="content has-text-centered">
+  <p>©Copyright 2022 by 12C-It1. All rights reserved.</p>
+</div>
+</footer>
+<!-- End of footer section -->
+
+
+<!-- Start of scripts code or links -->
+<script src="js/base.js"></script>
+<script type='text/javascript'>
+/* Sample function that returns boolean in case the browser is Internet Explorer*/
+function isIE() {
+  ua = navigator.userAgent;
+  /* MSIE used to detect old browsers and Trident used to newer ones*/
+  var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+  
+  return is_ie; 
+}
+/* Create an alert to show if the browser is IE or not */
+if (isIE()){
+    alert('This site does not load properly using InternetExplorer. Please change to a more upto date browser like Chrome or Firefox.');
+}
+</script>
+<!-- End of scripts code or links -->
+</body>
+</html>
