@@ -25,6 +25,11 @@ body {
 	/* background-image: url("../assets/mountains.jpg"); */
 }
 
+
+.pdlbody {
+  background-color: rgba(177, 194, 172);
+}
+
 h1 {
   font-size: 3rem;
   color: black;
