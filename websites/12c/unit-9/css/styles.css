@@ -76,7 +76,14 @@ p {
 .navbar.is-custom {
   background-color: #ffd4c7;
   color: rgba(0, 0, 0, 0.7);
+
+
 }
+
+  .pdlbody.navbar.is-custom {
+    background-color: #000000;
+    color: rgba(241, 238, 238, 0.7);
+  }
 
 /*
 .hero-bg-1 {
@@ -96,7 +103,10 @@ p {
 	background-color: orange;
 	color: black;
 }
-
+.pdlbody.footer {
+	background-color: black;
+	color: whitesmoke;
+}
 /* Other Styling */
 
 .see-through {
