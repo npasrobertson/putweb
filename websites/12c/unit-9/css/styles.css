@@ -74,13 +74,11 @@ p {
 /* Main Sections Styling */
 
 .navbar.is-custom {
-  background-color: #ffd4c7;
+  background-color: rgb(26, 245, 234);
   color: rgba(0, 0, 0, 0.7);
-
-
 }
 
-  .pdlbody.navbar.is-custom {
+.navbar.is-pdl {
     background-color: #000000;
     color: rgba(241, 238, 238, 0.7);
   }
@@ -100,10 +98,10 @@ p {
 }
 
 .footer {
-	background-color: orange;
+	background-color: rgb(26, 245, 234);
 	color: black;
 }
-.pdlbody.footer {
+.pdlfooter {
 	background-color: black;
 	color: whitesmoke;
 }
