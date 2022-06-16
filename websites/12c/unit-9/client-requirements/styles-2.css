@@ -1,0 +1,128 @@
+/*******************************************/
+/* CSS for Mr Robertson's website template */
+/*******************************************/
+
+/**********************************************************/
+/* NOTES:                                                  */
+/* This template is based on the Bulma CSS framework      */
+/*                                                        */
+/* 'color' is for the colour of the writing               */
+/* 'background-color' is for the colour of the background */
+/**********************************************************/
+
+
+/* Browser compatibility */
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+  }
+  
+  /* Main Elements Styling */
+  
+  body {
+      background-color: #FFF6EA;
+      /* Remove the slash and star from either side of the code below to activate it */
+      /* background-image: url("../assets/mountains.jpg"); */
+  }
+  
+  
+  .pdlbody {
+    background-color: rgba(177, 194, 172);
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: black;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: black;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    color: black;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+    color: black;
+  }
+  
+  h6 {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  h7 {
+    font-size: 0.75rem;
+    color: black;
+  }
+  
+  p {
+      font-size: 1.1em;
+      margin-bottom: 1rem !important;
+      color: black;
+  }
+  
+  /* Main Sections Styling */
+  
+  .navbar.is-custom {
+    background-color: rgb(198, 198, 198);
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .navbar.is-pdl {
+      background-color: #000000;
+      color: rgba(241, 238, 238, 0.7);
+    }
+  
+  /*
+  .hero-bg-1 {
+      background-image: url("../assets/mountains.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #999;
+  }
+  */
+  
+  .sidebar1 {
+      background-color: #fffbf5
+  }
+  
+  .footer {
+      background-color: rgb(198, 198, 198);
+      color: black;
+  }
+  .pdlfooter {
+      background-color: black;
+      color: whitesmoke;
+  }
+  /* Other Styling */
+  
+  .see-through {
+    opacity: 0.7;
+  }
+  
+  
+  .hero.has-background {
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-background.is-transparent {
+    opacity: 0.3;
+  }
