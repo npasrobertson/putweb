@@ -82,6 +82,10 @@ p {
     background-color: #000000;
     color: rgba(241, 238, 238, 0.7);
   }
+  .navbar{
+    background-color: rgb(122, 253, 198);
+    color: rgba(241, 238, 238, 0.7);
+  }
 
 /*
 .hero-bg-1 {
@@ -98,8 +102,8 @@ p {
 }
 
 .footer {
-	background-color: rgb(245, 26, 26);
-	color: black;
+	background-color: rgb(26, 245, 234);
+	color: rgb(26, 245, 234);
 }
 .pdlfooter {
 	background-color: black;
